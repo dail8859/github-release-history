@@ -1,0 +1,47 @@
+{
+ "etags": [
+  "ae2898ed63d7b1cc8d96f1ddf45beaec"
+ ],
+ "releases": {
+  "3090619": {
+   "assets": {
+    "1595714": {
+     "created_at": "2016-04-25T12:40:29Z",
+     "downloads": {
+      "2016-05-23": 10,
+      "2016-05-24": 11
+     },
+     "name": "nppDemoAndProjectTemplate.zip"
+    }
+   },
+   "created_at": "2016-04-25T12:36:18Z",
+   "name": "v0.8"
+  },
+  "3086502": {
+   "assets": {
+    "1592669": {
+     "created_at": "2016-04-24T16:51:38Z",
+     "downloads": {
+      "2016-05-23": 2
+     },
+     "name": "nppDemoAndProjectTemplate.zip"
+    }
+   },
+   "created_at": "2016-04-24T16:49:57Z",
+   "name": "0.6"
+  },
+  "3291118": {
+   "assets": {
+    "1735789": {
+     "created_at": "2016-05-24T09:23:50Z",
+     "downloads": {
+      "2016-05-24": 1
+     },
+     "name": "nppDemoAndProjectTemplate0.90.zip"
+    }
+   },
+   "created_at": "2016-05-23T08:18:16Z",
+   "name": "Notepad++ plugin pack for C# v0.90"
+  }
+ }
+}
