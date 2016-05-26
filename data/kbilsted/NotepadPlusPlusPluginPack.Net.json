@@ -1,6 +1,6 @@
 {
  "etags": [
-  "ae2898ed63d7b1cc8d96f1ddf45beaec"
+  "8611ba95140dd6c30ebdd9acfe1aaad8"
  ],
  "releases": {
   "3090619": {
@@ -35,7 +35,8 @@
     "1735789": {
      "created_at": "2016-05-24T09:23:50Z",
      "downloads": {
-      "2016-05-24": 1
+      "2016-05-24": 1,
+      "2016-05-25": 2
      },
      "name": "nppDemoAndProjectTemplate0.90.zip"
     }
