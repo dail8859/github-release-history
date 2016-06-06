@@ -1,6 +1,6 @@
 {
  "etags": [
-  "9f0252f54033b0128b14d60bc80fa387"
+  "5f190bcac09a2ba6758acc24ff75e484"
  ],
  "releases": {
   "3353014": {
@@ -16,6 +16,19 @@
    },
    "created_at": "2016-06-01T20:46:57Z",
    "name": "Angry Abricot"
+  },
+  "3377080": {
+   "assets": {
+    "1797559": {
+     "created_at": "2016-06-05T20:23:08Z",
+     "downloads": {
+      "2016-06-05": 0
+     },
+     "name": "GuidHelper.dll"
+    }
+   },
+   "created_at": "2016-06-05T20:20:52Z",
+   "name": "BlueBean"
   }
  }
 }
