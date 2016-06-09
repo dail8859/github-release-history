@@ -1,6 +1,6 @@
 {
  "etags": [
-  "a0f78ba4776e52ba67adb44204d4d13a"
+  "13c79b642696124e57c6b3ab5f9d5c20"
  ],
  "releases": {
   "3090619": {
@@ -54,12 +54,26 @@
     "1809944": {
      "created_at": "2016-06-07T20:03:49Z",
      "downloads": {
-      "2016-06-07": 0
+      "2016-06-07": 0,
+      "2016-06-08": 1
      },
      "name": "nppDemoAndProjectTemplate0.91.52.zip"
     }
    },
    "created_at": "2016-06-07T19:34:36Z",
+   "name": "Improvements due to dogfooding"
+  },
+  "3403574": {
+   "assets": {
+    "1816478": {
+     "created_at": "2016-06-08T20:31:23Z",
+     "downloads": {
+      "2016-06-08": 1
+     },
+     "name": "NppPlugin0.91.57.zip"
+    }
+   },
+   "created_at": "2016-06-08T20:23:40Z",
    "name": "Improvements due to dogfooding"
   }
  }
