@@ -1,6 +1,6 @@
 {
  "etags": [
-  "83444a050aa52deafb3b341f9d9af9cb"
+  "d155b75842c5ccffbaaa8499a1764ad5"
  ],
  "releases": {
   "3090619": {
@@ -57,7 +57,8 @@
      "downloads": {
       "2016-06-07": 0,
       "2016-06-08": 1,
-      "2016-06-10": 2
+      "2016-06-10": 2,
+      "2016-06-15": 3
      },
      "name": "nppDemoAndProjectTemplate0.91.52.zip"
     }
@@ -74,13 +75,27 @@
       "2016-06-10": 3,
       "2016-06-11": 4,
       "2016-06-13": 5,
-      "2016-06-14": 7
+      "2016-06-14": 7,
+      "2016-06-15": 9
      },
      "name": "NppPlugin0.91.57.zip"
     }
    },
    "created_at": "2016-06-08T20:23:40Z",
    "name": "Improvements due to dogfooding"
+  },
+  "3452839": {
+   "assets": {
+    "1854196": {
+     "created_at": "2016-06-15T19:14:42Z",
+     "downloads": {
+      "2016-06-15": 0
+     },
+     "name": "NppPlugin0.91.71.zip"
+    }
+   },
+   "created_at": "2016-06-15T19:09:21Z",
+   "name": "Dinky Doughnut"
   }
  }
 }
