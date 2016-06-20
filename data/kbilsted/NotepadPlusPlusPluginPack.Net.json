@@ -1,6 +1,6 @@
 {
  "etags": [
-  "693920774f7780cd66447b91718c6fa9"
+  "f57b2b925a7f9005a465ecffea915106"
  ],
  "releases": {
   "3090619": {
@@ -99,6 +99,19 @@
    },
    "created_at": "2016-06-15T19:09:21Z",
    "name": "Dinky Doughnut"
+  },
+  "3477083": {
+   "assets": {
+    "1872510": {
+     "created_at": "2016-06-19T21:02:20Z",
+     "downloads": {
+      "2016-06-19": 4
+     },
+     "name": "NppPlugin0.92.76.zip"
+    }
+   },
+   "created_at": "2016-06-19T20:57:56Z",
+   "name": "EasternEagle"
   }
  }
 }
