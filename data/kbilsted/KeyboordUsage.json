@@ -1,0 +1,20 @@
+{
+ "etags": [
+  "b0d9603727680c1c182bcb9e8400fba9"
+ ],
+ "releases": {
+  "3640089": {
+   "assets": {
+    "1977974": {
+     "created_at": "2016-07-12T16:04:22Z",
+     "downloads": {
+      "2016-07-13": 7
+     },
+     "name": "KeybooardUsage.zip"
+    }
+   },
+   "created_at": "2016-07-09T06:10:30Z",
+   "name": "1.0"
+  }
+ }
+}
