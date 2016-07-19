@@ -1,6 +1,6 @@
 {
  "etags": [
-  "a4f0cd4f77f00f252898b9eea1033d5e"
+  "28012890d940f8a53685df206d12927f"
  ],
  "releases": {
   "3640089": {
@@ -16,6 +16,19 @@
    },
    "created_at": "2016-07-09T06:10:30Z",
    "name": "1.0"
+  },
+  "3680411": {
+   "assets": {
+    "2006308": {
+     "created_at": "2016-07-18T11:56:00Z",
+     "downloads": {
+      "2016-07-18": 0
+     },
+     "name": "KeybooardUsage.zip"
+    }
+   },
+   "created_at": "2016-07-18T10:25:45Z",
+   "name": "More stats"
   }
  }
 }
