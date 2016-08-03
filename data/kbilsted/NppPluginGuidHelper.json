@@ -1,6 +1,6 @@
 {
  "etags": [
-  "ef2ad0e59bdf38db8a6037413bd6c745"
+  "d0568e275d829bbd43a07fac720d6dfb"
  ],
  "releases": {
   "3353014": {
@@ -33,6 +33,19 @@
    },
    "created_at": "2016-06-05T20:20:52Z",
    "name": "BlueBean"
+  },
+  "3795729": {
+   "assets": {
+    "2082716": {
+     "created_at": "2016-08-02T18:01:42Z",
+     "downloads": {
+      "2016-08-02": 0
+     },
+     "name": "GuidHelper.dll"
+    }
+   },
+   "created_at": "2016-08-02T17:58:49Z",
+   "name": "Chameleon"
   }
  }
 }
