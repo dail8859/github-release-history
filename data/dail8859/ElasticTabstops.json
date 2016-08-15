@@ -1,0 +1,33 @@
+{
+ "etags": [
+  "a4fe6c73834a39663d49abf76772d8b1"
+ ],
+ "releases": {
+  "3882279": {
+   "assets": {
+    "2143887": {
+     "created_at": "2016-08-13T23:53:25Z",
+     "downloads": {
+      "2016-08-14": 5
+     },
+     "name": "ElasticTabstops.zip"
+    }
+   },
+   "created_at": "2016-08-13T21:38:17Z",
+   "name": "v1.0.1"
+  },
+  "3881638": {
+   "assets": {
+    "2143319": {
+     "created_at": "2016-08-13T17:47:32Z",
+     "downloads": {
+      "2016-08-14": 1
+     },
+     "name": "ElasticTabstops.zip"
+    }
+   },
+   "created_at": "2016-08-13T17:26:30Z",
+   "name": "v1.0"
+  }
+ }
+}
