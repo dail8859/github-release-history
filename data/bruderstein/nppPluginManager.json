@@ -1,0 +1,20 @@
+{
+ "etags": [
+  "6406e2691364faddfd90e545f9f75f6c"
+ ],
+ "releases": {
+  "4343575": {
+   "assets": {
+    "2446707": {
+     "created_at": "2016-10-09T18:48:03Z",
+     "downloads": {
+      "2016-10-09": 8
+     },
+     "name": "PluginManager_1_4_1_UNI.zip"
+    }
+   },
+   "created_at": "2016-10-09T18:42:20Z",
+   "name": "v1.4.1"
+  }
+ }
+}
