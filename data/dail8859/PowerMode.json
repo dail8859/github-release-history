@@ -1,0 +1,20 @@
+{
+ "etags": [
+  "03c76fbc12bd17e399fbedbb491b2698"
+ ],
+ "releases": {
+  "4393077": {
+   "assets": {
+    "2476135": {
+     "created_at": "2016-10-14T18:03:45Z",
+     "downloads": {
+      "2016-10-16": 1
+     },
+     "name": "PowerMode.zip"
+    }
+   },
+   "created_at": "2016-10-14T18:02:04Z",
+   "name": "v1.0"
+  }
+ }
+}
