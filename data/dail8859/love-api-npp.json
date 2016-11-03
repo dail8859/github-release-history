@@ -1,0 +1,20 @@
+{
+ "etags": [
+  "ec877bfefe6f6a0b771f642ebdffdadd"
+ ],
+ "releases": {
+  "4552114": {
+   "assets": {
+    "2576769": {
+     "created_at": "2016-11-02T20:07:42Z",
+     "downloads": {
+      "2016-11-02": 0
+     },
+     "name": "lua_love.xml"
+    }
+   },
+   "created_at": "2016-11-02T20:11:16Z",
+   "name": "v0.10.2"
+  }
+ }
+}
