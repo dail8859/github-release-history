@@ -1,6 +1,6 @@
 {
  "etags": [
-  "822bad968cd0730f74366ee3e42ff701"
+  "d640fab5ec33ded2f051e7c42c3dde11"
  ],
  "releases": {
   "3090619": {
@@ -201,6 +201,19 @@
    },
    "created_at": "2016-06-22T18:11:26Z",
    "name": "bugfix of 0.92"
+  },
+  "4764886": {
+   "assets": {
+    "2720434": {
+     "created_at": "2016-11-26T20:42:49Z",
+     "downloads": {
+      "2016-11-26": 1
+     },
+     "name": "NppPlugin0.93.87.zip"
+    }
+   },
+   "created_at": "2016-11-26T20:37:48Z",
+   "name": "64-bit bug fix"
   }
  }
 }
