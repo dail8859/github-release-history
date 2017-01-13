@@ -35,40 +35,42 @@ import org.eclipse.jgit.transport.UsernamePasswordCredentialsProvider;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 public class MainActivity extends AppCompatActivity {
-    String repoUrl;
-    String repoDir;
-    Git repo = null;
-    ArrayList<String> items;
-    CommitAdapter ca = null;
+    private String repoDir;
+    private Git repo = null;
+    private CommitAdapter commitAdapter = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        repoUrl = "https://github.com/" + getString(R.string.GITHUB_USERNAME) + "/" + getString(R.string.GITHUB_REPONAME) + ".git";
-        repoDir = getFilesDir() + "/repo";
+        repoDir = RepoUtilities.getLocalRepositoryDirectory(this);
 
-        ca = new CommitAdapter();
-        ListView listView = (ListView) findViewById(R.id.listView);
-        listView.setAdapter(ca);
-        listView.setOnItemClickListener(ca);
+        createCommitAdapter();
+        updateLocalRepoReference();
+    }
 
-        checkLocalRepo();
+    @Override
+    public void onResume(){
+        super.onRestart();
+
+        // The repository may have changed due to a background process
         resetUI();
     }
 
-    private void checkLocalRepo() {
-        try {
-            repo = Git.open(new File(repoDir));
-        } catch (IOException e) {
-            repo = null;
-        }
+    private void createCommitAdapter() {
+        commitAdapter = new CommitAdapter();
+        ListView listView = (ListView) findViewById(R.id.listView);
+        listView.setAdapter(commitAdapter);
+        listView.setOnItemClickListener(commitAdapter);
+    }
+
+    private void updateLocalRepoReference() {
+        repo = RepoUtilities.getLocalRepository(repoDir);
     }
 
     private void resetUI() {
@@ -107,10 +109,9 @@ public class MainActivity extends AppCompatActivity {
             findViewById(R.id.btn_push).setEnabled(false);
             findViewById(R.id.btn_reset).setEnabled(false);
             findViewById(R.id.btn_add_repo).setEnabled(false);
-
         }
 
-        ca.notifyDataSetChanged();
+        commitAdapter.notifyDataSetChanged();
     }
 
     public void onButtonPress(View view) throws ExecutionException, InterruptedException {
@@ -120,6 +121,7 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.btn_clone).setEnabled(false);
                 findViewById(R.id.btn_reset).setEnabled(false);
 
+                String repoUrl = RepoUtilities.getRepositoryURL(this);
                 CloneTask task = new CloneTask(repoDir, repoUrl, new RepoTaskMonitor(this), new AsyncTaskCallback<Boolean>() {
                     @Override public void onComplete(Boolean val) {
                         if (val) {
@@ -128,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
                         else {
                             Toast.makeText(getApplicationContext(), "Clone Failed!", Toast.LENGTH_SHORT).show();
                         }
-                        checkLocalRepo();
+                        updateLocalRepoReference();
                         resetUI();
                     }
                 });
@@ -138,12 +140,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_pull: {
                 PullTask pt = new PullTask(repo, new RepoTaskMonitor(this), new AsyncTaskCallback<PullResult>() {
                     @Override public void onComplete(PullResult val) {
-                        if (val != null && val.isSuccessful()) {
-                            Toast.makeText(getApplicationContext(), "Pull Successful!", Toast.LENGTH_SHORT).show();
-                        }
-                        else {
-                            Toast.makeText(getApplicationContext(), "Pull Failed!", Toast.LENGTH_SHORT).show();
-                        }
+                        String message = (val != null && val.isSuccessful()) ? "Pull Successful!" : "Pull Failed!";
+                        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
                         resetUI();
                     }
                 });
@@ -153,20 +151,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_commit: {
                 // Disable during a commit
                 findViewById(R.id.btn_commit).setEnabled(false);
-
-                // TODO: remove this later. This ensures something changed in the repo
-                /*
-                FileOutputStream outputStream;
-                try {
-                    String s = "\r\nMore contents";
-                    outputStream = new FileOutputStream(new File(repoDir + "/test.txt"), true);
-                    outputStream.write(s.getBytes());
-                    outputStream.close();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                    break;
-                }
-                */
 
                 final String username = getString(R.string.GITHUB_USERNAME);
                 final String email = getString(R.string.GITHUB_USEREMAIL);
@@ -195,6 +179,9 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
                 sg.execute();
+
+                MyJobService.candelJob(this);
+                MyJobService.scheduleJob(this);
                 break;
             }
             case R.id.btn_reset_head: {
@@ -241,7 +228,7 @@ public class MainActivity extends AppCompatActivity {
                                 } catch (IOException e) {
                                     e.printStackTrace();
                                 }
-                                checkLocalRepo();
+                                updateLocalRepoReference();
                                 resetUI();
                                 break;
                             case DialogInterface.BUTTON_NEGATIVE:
@@ -328,27 +315,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void doCommit(String username, String email, String message) {
-        // Add everything
-        try {
-            repo.add().addFilepattern(".").call();
-        } catch (GitAPIException e) {
-            e.printStackTrace();
-            return;
-        }
+        RepoUtilities.addAllFilesToStaging(repo);
 
-        // Do the commit now
-        CommitTask ct = new CommitTask(repo, new PersonIdent(username, email), message, new AsyncTaskCallback<Boolean>() {
+        RepoUtilities.commitChanges(repo, username, email, message, new AsyncTaskCallback<Boolean>() {
             @Override public void onComplete(Boolean val) {
-                if (val) {
-                    Toast.makeText(MainActivity.this, "Commit Successful! :)", Toast.LENGTH_SHORT).show();
-                }
-                else {
-                    Toast.makeText(MainActivity.this, "Commit Failed!", Toast.LENGTH_SHORT).show();
-                }
+                String message = val ? "Commit Successful! :)" : "Commit Failed!";
+                Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
                 resetUI();
             }
         });
-        ct.execute();
     }
 
     public class RepoTaskMonitor implements ProgressMonitor {
@@ -504,10 +479,10 @@ public class MainActivity extends AppCompatActivity {
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             RevCommit commit = (RevCommit) parent.getItemAtPosition(position);
 
-            AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
-            dialog.setTitle("Commit " + commit.toObjectId().abbreviate(8).name());
-            dialog.setMessage(commit.getFullMessage());
-            dialog.show();
+            new AlertDialog.Builder(MainActivity.this)
+                .setTitle("Commit " + commit.toObjectId().abbreviate(8).name())
+                .setMessage(commit.getFullMessage())
+                .show();
         }
     }
 }

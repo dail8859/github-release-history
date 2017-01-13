@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.dail8859.githubreleasehistory"
-        minSdkVersion 16
+        minSdkVersion 23
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -33,6 +33,6 @@ dependencies {
     compile 'org.eclipse.jgit:org.eclipse.jgit:3.7.1.201504261725-r'
     compile 'commons-io:commons-io:2.4'
     compile 'org.slf4j:slf4j-simple:1.7.13'
-    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.squareup.okhttp3:okhttp:3.5.0'
     compile 'com.squareup.moshi:moshi:1.1.0'
 }

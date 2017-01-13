@@ -132,7 +132,7 @@ public class StatGatherer extends AsyncTask<Void, String, String> {
             Request.Builder b = new Request.Builder()
                     .url(url)
                     .addHeader("Accept", "application/vnd.github.v3+json")
-                    .addHeader("user-agent", username) // TODO: change this to the application name
+                    .addHeader("user-agent", "github-release-history")
                     .addHeader("Authorization", "token " + api_key);
 
             // Add the etags if there was one available
