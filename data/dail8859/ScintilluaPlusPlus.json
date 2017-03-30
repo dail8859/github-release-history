@@ -1,6 +1,6 @@
 {
  "etags": [
-  "53141d5603dc41dca59893db0fc3262e"
+  "4fb33c4dd971442329fd6489bc7bfd78"
  ],
  "releases": {
   "5755775": {
@@ -48,14 +48,16 @@
     "3509376": {
      "created_at": "2017-03-28T19:36:04Z",
      "downloads": {
-      "2017-03-28": 1
+      "2017-03-28": 1,
+      "2017-03-29": 9
      },
      "name": "ScintilluaPlusPlus.zip"
     },
     "3509377": {
      "created_at": "2017-03-28T19:36:05Z",
      "downloads": {
-      "2017-03-28": 1
+      "2017-03-28": 1,
+      "2017-03-29": 2
      },
      "name": "ScintilluaPlusPlus_64.zip"
     }
