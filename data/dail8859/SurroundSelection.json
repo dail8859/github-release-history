@@ -1,0 +1,27 @@
+{
+ "etags": [
+  "25a1ea5198ca6a7e930606237d341009"
+ ],
+ "releases": {
+  "6021357": {
+   "assets": {
+    "3609846": {
+     "created_at": "2017-04-08T15:24:31Z",
+     "downloads": {
+      "2017-04-08": 2
+     },
+     "name": "SurroundSelection.zip"
+    },
+    "3609847": {
+     "created_at": "2017-04-08T15:24:31Z",
+     "downloads": {
+      "2017-04-08": 0
+     },
+     "name": "SurroundSelection_64.zip"
+    }
+   },
+   "created_at": "2017-04-08T15:18:08Z",
+   "name": "v1.0"
+  }
+ }
+}
