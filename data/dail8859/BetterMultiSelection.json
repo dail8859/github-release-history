@@ -1,0 +1,27 @@
+{
+ "etags": [
+  "6a9ea78f159ce18d543a4294c2d70b28"
+ ],
+ "releases": {
+  "6089213": {
+   "assets": {
+    "3660156": {
+     "created_at": "2017-04-15T15:11:13Z",
+     "downloads": {
+      "2017-04-15": 4
+     },
+     "name": "BetterMultiSelection.zip"
+    },
+    "3660157": {
+     "created_at": "2017-04-15T15:11:14Z",
+     "downloads": {
+      "2017-04-15": 0
+     },
+     "name": "BetterMultiSelection_64.zip"
+    }
+   },
+   "created_at": "2017-04-15T15:06:12Z",
+   "name": "v1.0"
+  }
+ }
+}
