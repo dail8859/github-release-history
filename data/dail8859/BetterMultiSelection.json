@@ -1,6 +1,6 @@
 {
  "etags": [
-  "578d3e538b1f8f658a8f099af2b12885"
+  "2b4faf74e9ce1a753562adcee7a08669"
  ],
  "releases": {
   "6089213": {
@@ -8,7 +8,8 @@
     "3660156": {
      "created_at": "2017-04-15T15:11:13Z",
      "downloads": {
-      "2017-04-15": 4
+      "2017-04-15": 4,
+      "2017-04-17": 8
      },
      "name": "BetterMultiSelection.zip"
     },
@@ -16,7 +17,8 @@
      "created_at": "2017-04-15T15:11:14Z",
      "downloads": {
       "2017-04-15": 0,
-      "2017-04-16": 1
+      "2017-04-16": 1,
+      "2017-04-17": 2
      },
      "name": "BetterMultiSelection_64.zip"
     }
