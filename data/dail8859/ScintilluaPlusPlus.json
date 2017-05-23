@@ -1,6 +1,6 @@
 {
  "etags": [
-  "b1cc583c78ce86854e6b89f80fe16dc8"
+  "eb2ccca94f6b5a5d30a8efa94acd7393"
  ],
  "releases": {
   "5755775": {
@@ -60,7 +60,8 @@
       "2017-05-03": 23,
       "2017-05-08": 24,
       "2017-05-15": 26,
-      "2017-05-21": 27
+      "2017-05-21": 27,
+      "2017-05-22": 28
      },
      "name": "ScintilluaPlusPlus.zip"
     },
@@ -87,6 +88,26 @@
    },
    "created_at": "2017-03-28T19:17:00Z",
    "name": "v1.1"
+  },
+  "6464844": {
+   "assets": {
+    "3932911": {
+     "created_at": "2017-05-22T15:40:37Z",
+     "downloads": {
+      "2017-05-22": 0
+     },
+     "name": "ScintilluaPlusPlus.zip"
+    },
+    "3932912": {
+     "created_at": "2017-05-22T15:40:37Z",
+     "downloads": {
+      "2017-05-22": 0
+     },
+     "name": "ScintilluaPlusPlus_64.zip"
+    }
+   },
+   "created_at": "2017-05-22T14:12:00Z",
+   "name": "v1.2"
   }
  }
 }
