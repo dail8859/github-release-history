@@ -3,6 +3,46 @@
   "e75fb4583660ae91e1ffcf642741559d"
  ],
  "releases": {
+  "11015169": {
+   "assets": {
+    "7185945": {
+     "created_at": "2018-05-15T20:51:19",
+     "downloads": {
+      "2018-10-07": 3036
+     },
+     "name": "BetterMultiSelection_v1.2_x64.zip"
+    },
+    "7185960": {
+     "created_at": "2018-05-15T20:51:19",
+     "downloads": {
+      "2018-10-07": 2316
+     },
+     "name": "BetterMultiSelection_v1.2.zip"
+    }
+   },
+   "created_at": "2018-05-15T20:51:19",
+   "name": "v1.2"
+  },
+  "13164394": {
+   "assets": {
+    "8900242": {
+     "created_at": "2018-09-29T15:28:07",
+     "downloads": {
+      "2018-10-07": 75
+     },
+     "name": "BetterMultiSelection_v1.3_x64.zip"
+    },
+    "8900245": {
+     "created_at": "2018-09-29T15:28:07",
+     "downloads": {
+      "2018-10-07": 9
+     },
+     "name": "BetterMultiSelection_v1.3.zip"
+    }
+   },
+   "created_at": "2018-09-29T15:28:07",
+   "name": "v1.3"
+  },
   "6089213": {
    "assets": {
     "3660156": {
@@ -28,7 +68,8 @@
       "2017-06-13": 33,
       "2017-06-18": 34,
       "2017-06-23": 35,
-      "2017-06-24": 36
+      "2017-06-24": 36,
+      "2018-10-07": 38
      },
      "name": "BetterMultiSelection.zip"
     },
@@ -50,13 +91,34 @@
       "2017-05-23": 16,
       "2017-06-17": 17,
       "2017-06-20": 18,
-      "2017-06-21": 19
+      "2017-06-21": 19,
+      "2018-10-07": 20
      },
      "name": "BetterMultiSelection_64.zip"
     }
    },
    "created_at": "2017-04-15T15:06:12Z",
    "name": "v1.0"
+  },
+  "6912352": {
+   "assets": {
+    "4240514": {
+     "created_at": "2017-07-03T12:48:28",
+     "downloads": {
+      "2018-10-07": 1906
+     },
+     "name": "BetterMultiSelection.zip"
+    },
+    "4240515": {
+     "created_at": "2017-07-03T12:48:28",
+     "downloads": {
+      "2018-10-07": 2031
+     },
+     "name": "BetterMultiSelection_64.zip"
+    }
+   },
+   "created_at": "2017-07-03T12:48:28",
+   "name": "v1.1"
   }
  }
 }
