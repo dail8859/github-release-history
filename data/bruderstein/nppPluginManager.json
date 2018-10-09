@@ -1,0 +1,223 @@
+{
+ "releases": {
+  "10073639": {
+   "assets": {
+    "6500837": {
+     "created_at": "2018-03-13T21:42:20",
+     "downloads": {
+      "2018-10-07": 393596
+     },
+     "name": "PluginManager_v1.4.11_x64.zip"
+    },
+    "6500847": {
+     "created_at": "2018-03-13T21:42:20",
+     "downloads": {
+      "2018-10-07": 1662962
+     },
+     "name": "PluginManager_v1.4.11_UNI.zip"
+    }
+   },
+   "created_at": "2018-03-13T21:42:20",
+   "name": "v1.4.11"
+  },
+  "13171309": {
+   "assets": {
+    "8910805": {
+     "created_at": "2018-09-30T21:05:13",
+     "downloads": {
+      "2018-10-07": 24385
+     },
+     "name": "PluginManager_v1.4.12_x64.zip"
+    },
+    "8910817": {
+     "created_at": "2018-09-30T21:05:13",
+     "downloads": {
+      "2018-10-07": 7265
+     },
+     "name": "PluginManager_v1.4.12_UNI.zip"
+    }
+   },
+   "created_at": "2018-09-30T21:05:13",
+   "name": "v1.4.12"
+  },
+  "4343575": {
+   "assets": {
+    "2446707": {
+     "created_at": "2016-10-09T18:42:20",
+     "downloads": {
+      "2018-10-07": 14884
+     },
+     "name": "PluginManager_1_4_1_UNI.zip"
+    }
+   },
+   "created_at": "2016-10-09T18:42:20",
+   "name": "v1.4.1"
+  },
+  "4397706": {
+   "assets": {
+    "2506325": {
+     "created_at": "2016-10-15T14:55:43",
+     "downloads": {
+      "2018-10-07": 1392
+     },
+     "name": "PluginManager_1.4.2_UNI.zip"
+    }
+   },
+   "created_at": "2016-10-15T14:55:43",
+   "name": "v1.4.2"
+  },
+  "4519994": {
+   "assets": {
+    "2556056": {
+     "created_at": "2016-10-30T10:51:23",
+     "downloads": {
+      "2018-10-07": 9056778
+     },
+     "name": "PluginManager_1.4.3_UNI.zip"
+    }
+   },
+   "created_at": "2016-10-30T10:51:23",
+   "name": "v1.4.3"
+  },
+  "5540825": {
+   "assets": {
+    "3253046": {
+     "created_at": "2017-02-22T21:27:13",
+     "downloads": {
+      "2018-10-07": 8828
+     },
+     "name": "PluginManager_v1.4.4_x64.zip"
+    },
+    "3253112": {
+     "created_at": "2017-02-22T21:27:13",
+     "downloads": {
+      "2018-10-07": 75409
+     },
+     "name": "PluginManager_v1.4.4_UNI.zip"
+    }
+   },
+   "created_at": "2017-02-22T21:27:13",
+   "name": "v1.4.4"
+  },
+  "6029602": {
+   "assets": {
+    "3617900": {
+     "created_at": "2017-04-10T08:58:00",
+     "downloads": {
+      "2018-10-07": 1046
+     },
+     "name": "PluginManager_v1.4.5_x64.zip"
+    },
+    "3617904": {
+     "created_at": "2017-04-10T08:58:00",
+     "downloads": {
+      "2018-10-07": 8066283
+     },
+     "name": "PluginManager_v1.4.5_UNI.zip"
+    }
+   },
+   "created_at": "2017-04-10T08:58:00",
+   "name": "v1.4.5"
+  },
+  "6038109": {
+   "assets": {
+    "3622903": {
+     "created_at": "2017-04-10T20:57:37",
+     "downloads": {
+      "2018-10-07": 903
+     },
+     "name": "PluginManager_v1.4.6_x64.zip"
+    },
+    "3622909": {
+     "created_at": "2017-04-10T20:57:37",
+     "downloads": {
+      "2018-10-07": 1030
+     },
+     "name": "PluginManager_v1.4.6_UNI.zip"
+    }
+   },
+   "created_at": "2017-04-10T20:57:37",
+   "name": "v1.4.6"
+  },
+  "6063645": {
+   "assets": {
+    "3639928": {
+     "created_at": "2017-04-12T18:24:03",
+     "downloads": {
+      "2018-10-07": 630
+     },
+     "name": "PluginManager_v1.4.7_x64.zip"
+    },
+    "3639934": {
+     "created_at": "2017-04-12T18:24:03",
+     "downloads": {
+      "2018-10-07": 463
+     },
+     "name": "PluginManager_v1.4.7_UNI.zip"
+    }
+   },
+   "created_at": "2017-04-12T18:24:03",
+   "name": "v1.4.7"
+  },
+  "6063956": {
+   "assets": {
+    "3640083": {
+     "created_at": "2017-04-12T18:42:17",
+     "downloads": {
+      "2018-10-07": 2674
+     },
+     "name": "PluginManager_v1.4.8_x64.zip"
+    },
+    "3640089": {
+     "created_at": "2017-04-12T18:42:17",
+     "downloads": {
+      "2018-10-07": 2062
+     },
+     "name": "PluginManager_v1.4.8_UNI.zip"
+    }
+   },
+   "created_at": "2017-04-12T18:42:17",
+   "name": "v1.4.8"
+  },
+  "6089605": {
+   "assets": {
+    "3661777": {
+     "created_at": "2017-04-15T16:36:05",
+     "downloads": {
+      "2018-10-07": 248014
+     },
+     "name": "PluginManager_v1.4.9_x64.zip"
+    },
+    "3661808": {
+     "created_at": "2017-04-15T16:36:05",
+     "downloads": {
+      "2018-10-07": 2956061
+     },
+     "name": "PluginManager_v1.4.9_UNI.zip"
+    }
+   },
+   "created_at": "2017-04-15T16:36:05",
+   "name": "v1.4.9"
+  },
+  "9778754": {
+   "assets": {
+    "6286710": {
+     "created_at": "2018-02-21T22:13:53",
+     "downloads": {
+      "2018-10-07": 52180
+     },
+     "name": "PluginManager_v1.4.10_x64.zip"
+    },
+    "6286729": {
+     "created_at": "2018-02-21T22:13:53",
+     "downloads": {
+      "2018-10-07": 16384
+     },
+     "name": "PluginManager_v1.4.10_UNI.zip"
+    }
+   },
+   "created_at": "2018-02-21T22:13:53",
+   "name": "v1.4.10"
+  }
+ }
+}

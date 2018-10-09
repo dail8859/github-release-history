@@ -1,0 +1,70 @@
+{
+ "releases": {
+  "5755775": {
+   "assets": {
+    "3408986": {
+     "created_at": "2017-03-15T16:28:52",
+     "downloads": {
+      "2018-10-07": 23
+     },
+     "name": "ScintilluaPlusPlus.zip"
+    }
+   },
+   "created_at": "2017-03-15T16:28:52",
+   "name": "v1.0"
+  },
+  "5783086": {
+   "assets": {
+    "3428804": {
+     "created_at": "2017-03-17T15:33:39",
+     "downloads": {
+      "2018-10-07": 25
+     },
+     "name": "ScintilluaPlusPlus.zip"
+    }
+   },
+   "created_at": "2017-03-17T15:33:39",
+   "name": "v1.0.1"
+  },
+  "5899482": {
+   "assets": {
+    "3509376": {
+     "created_at": "2017-03-28T19:17:00",
+     "downloads": {
+      "2018-10-07": 38
+     },
+     "name": "ScintilluaPlusPlus.zip"
+    },
+    "3509377": {
+     "created_at": "2017-03-28T19:17:00",
+     "downloads": {
+      "2018-10-07": 39
+     },
+     "name": "ScintilluaPlusPlus_64.zip"
+    }
+   },
+   "created_at": "2017-03-28T19:17:00",
+   "name": "v1.1"
+  },
+  "6464844": {
+   "assets": {
+    "3932911": {
+     "created_at": "2017-05-22T14:12:00",
+     "downloads": {
+      "2018-10-07": 135
+     },
+     "name": "ScintilluaPlusPlus.zip"
+    },
+    "3932912": {
+     "created_at": "2017-05-22T14:12:00",
+     "downloads": {
+      "2018-10-07": 122
+     },
+     "name": "ScintilluaPlusPlus_64.zip"
+    }
+   },
+   "created_at": "2017-05-22T14:12:00",
+   "name": "v1.2"
+  }
+ }
+}

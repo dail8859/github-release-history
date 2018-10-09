@@ -1,0 +1,134 @@
+{
+ "releases": {
+  "3086502": {
+   "assets": {
+    "1592669": {
+     "created_at": "2016-04-24T16:49:57",
+     "downloads": {
+      "2018-10-07": 14
+     },
+     "name": "nppDemoAndProjectTemplate.zip"
+    }
+   },
+   "created_at": "2016-04-24T16:49:57",
+   "name": "0.6"
+  },
+  "3090619": {
+   "assets": {
+    "1595714": {
+     "created_at": "2016-04-25T12:36:18",
+     "downloads": {
+      "2018-10-07": 20
+     },
+     "name": "nppDemoAndProjectTemplate.zip"
+    }
+   },
+   "created_at": "2016-04-25T12:36:18",
+   "name": "v0.8"
+  },
+  "3291118": {
+   "assets": {
+    "1735789": {
+     "created_at": "2016-05-23T08:18:16",
+     "downloads": {
+      "2018-10-07": 23
+     },
+     "name": "nppDemoAndProjectTemplate0.90.zip"
+    }
+   },
+   "created_at": "2016-05-23T08:18:16",
+   "name": "Notepad++ plugin pack for C# v0.90"
+  },
+  "3393625": {
+   "assets": {
+    "1809944": {
+     "created_at": "2016-06-07T19:34:36",
+     "downloads": {
+      "2018-10-07": 11
+     },
+     "name": "nppDemoAndProjectTemplate0.91.52.zip"
+    }
+   },
+   "created_at": "2016-06-07T19:34:36",
+   "name": "Improvements due to dogfooding"
+  },
+  "3403574": {
+   "assets": {
+    "1816478": {
+     "created_at": "2016-06-08T20:23:40",
+     "downloads": {
+      "2018-10-07": 12
+     },
+     "name": "NppPlugin0.91.57.zip"
+    }
+   },
+   "created_at": "2016-06-08T20:23:40",
+   "name": "Improvements due to dogfooding"
+  },
+  "3452839": {
+   "assets": {
+    "1854196": {
+     "created_at": "2016-06-15T19:09:21",
+     "downloads": {
+      "2018-10-07": 16
+     },
+     "name": "NppPlugin0.91.71.zip"
+    }
+   },
+   "created_at": "2016-06-15T19:09:21",
+   "name": "Dinky Doughnut"
+  },
+  "3501641": {
+   "assets": {
+    "1886983": {
+     "created_at": "2016-06-22T18:11:26",
+     "downloads": {
+      "2018-10-07": 132
+     },
+     "name": "NppPlugin0.92.83.zip"
+    }
+   },
+   "created_at": "2016-06-22T18:11:26",
+   "name": "bugfix of 0.92"
+  },
+  "4764886": {
+   "assets": {
+    "2720434": {
+     "created_at": "2016-11-26T20:37:48",
+     "downloads": {
+      "2018-10-07": 112
+     },
+     "name": "NppPlugin0.93.87.zip"
+    }
+   },
+   "created_at": "2016-11-26T20:37:48",
+   "name": "64-bit bug fix"
+  },
+  "5444495": {
+   "assets": {
+    "3184973": {
+     "created_at": "2017-02-13T20:30:52",
+     "downloads": {
+      "2018-10-07": 431
+     },
+     "name": "NppPlugin0.93.96.zip"
+    }
+   },
+   "created_at": "2017-02-13T20:30:52",
+   "name": "even more 64bit support"
+  },
+  "9317946": {
+   "assets": {
+    "5935121": {
+     "created_at": "2018-01-20T21:27:37",
+     "downloads": {
+      "2018-10-07": 300
+     },
+     "name": "NppPlugin0.94.00.zip"
+    }
+   },
+   "created_at": "2018-01-20T21:27:37",
+   "name": "improved 32 and 64 bit support - and vs2017"
+  }
+ }
+}

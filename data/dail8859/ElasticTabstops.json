@@ -1,0 +1,109 @@
+{
+ "releases": {
+  "3881638": {
+   "assets": {
+    "2143319": {
+     "created_at": "2016-08-13T17:26:30",
+     "downloads": {
+      "2018-10-07": 5
+     },
+     "name": "ElasticTabstops.zip"
+    }
+   },
+   "created_at": "2016-08-13T17:26:30",
+   "name": "v1.0"
+  },
+  "3882279": {
+   "assets": {
+    "2143887": {
+     "created_at": "2016-08-13T21:38:17",
+     "downloads": {
+      "2018-10-07": 14
+     },
+     "name": "ElasticTabstops.zip"
+    }
+   },
+   "created_at": "2016-08-13T21:38:17",
+   "name": "v1.0.1"
+  },
+  "3901691": {
+   "assets": {
+    "2157038": {
+     "created_at": "2016-08-16T22:04:56",
+     "downloads": {
+      "2018-10-07": 2713
+     },
+     "name": "ElasticTabstops.zip"
+    }
+   },
+   "created_at": "2016-08-16T22:04:56",
+   "name": "v1.0.2"
+  },
+  "4096464": {
+   "assets": {
+    "2288809": {
+     "created_at": "2016-09-10T13:11:01",
+     "downloads": {
+      "2018-10-07": 483
+     },
+     "name": "ElasticTabstops.zip"
+    }
+   },
+   "created_at": "2016-09-10T13:11:01",
+   "name": "v1.0.3"
+  },
+  "4538117": {
+   "assets": {
+    "2568624": {
+     "created_at": "2016-11-01T15:42:16",
+     "downloads": {
+      "2018-10-07": 6645
+     },
+     "name": "ElasticTabstops.zip"
+    }
+   },
+   "created_at": "2016-11-01T15:42:16",
+   "name": "v1.1"
+  },
+  "5497236": {
+   "assets": {
+    "3218732": {
+     "created_at": "2017-02-18T03:17:59",
+     "downloads": {
+      "2018-10-07": 170
+     },
+     "name": "ElasticTabstops.zip"
+    },
+    "3218733": {
+     "created_at": "2017-02-18T03:17:59",
+     "downloads": {
+      "2018-10-07": 532
+     },
+     "name": "ElasticTabstops_64.zip"
+    }
+   },
+   "created_at": "2017-02-18T03:17:59",
+   "name": "v1.2"
+  },
+  "6572024": {
+   "assets": {
+    "4007017": {
+     "created_at": "2017-06-01T12:53:42",
+     "downloads": {
+      "2018-10-07": 6087
+     },
+     "name": "ElasticTabstops.zip"
+    },
+    "4007018": {
+     "created_at": "2017-06-01T12:53:42",
+     "downloads": {
+      "2018-10-07": 4791
+     },
+     "name": "ElasticTabstops_64.zip"
+    }
+   },
+   "created_at": "2017-06-01T12:53:42",
+   "name": "v1.3"
+  }
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "releases": {
+  "3353014": {
+   "assets": {
+    "1778949": {
+     "created_at": "2016-06-01T20:46:57",
+     "downloads": {
+      "2018-10-07": 3
+     },
+     "name": "GuidHelper.dll"
+    }
+   },
+   "created_at": "2016-06-01T20:46:57",
+   "name": "Angry Abricot"
+  },
+  "3377080": {
+   "assets": {
+    "1797559": {
+     "created_at": "2016-06-05T20:20:52",
+     "downloads": {
+      "2018-10-07": 4
+     },
+     "name": "GuidHelper.dll"
+    }
+   },
+   "created_at": "2016-06-05T20:20:52",
+   "name": "BlueBean"
+  },
+  "3795729": {
+   "assets": {
+    "2082716": {
+     "created_at": "2016-08-02T17:58:49",
+     "downloads": {
+      "2018-10-07": 23
+     },
+     "name": "GuidHelper.dll"
+    }
+   },
+   "created_at": "2016-08-02T17:58:49",
+   "name": "Chameleon"
+  },
+  "5444689": {
+   "assets": {
+    "3185054": {
+     "created_at": "2017-02-13T20:45:39",
+     "downloads": {
+      "2018-10-07": 116
+     },
+     "name": "GuidHelper.dll"
+    }
+   },
+   "created_at": "2017-02-13T20:45:39",
+   "name": "Donnie Darko"
+  }
+ }
+}
